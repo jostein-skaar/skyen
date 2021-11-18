@@ -1,0 +1,25 @@
+{
+  "resources": [
+    "assets/lydeffekter.ogg",
+    "assets/lydeffekter.m4a",
+    "assets/lydeffekter.mp3",
+    "assets/lydeffekter.ac3"
+  ],
+  "spritemap": {
+    "engine4-kort": {
+      "start": 0,
+      "end": 0.1800907029478458,
+      "loop": false
+    },
+    "smb_bowserfalls": {
+      "start": 2,
+      "end": 3.0319274376417233,
+      "loop": false
+    },
+    "smb_coin": {
+      "start": 5,
+      "end": 5.945487528344671,
+      "loop": false
+    }
+  }
+}
