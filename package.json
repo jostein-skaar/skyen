@@ -1,0 +1,16 @@
+{
+  "name": "skyen",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "vite": "^2.6.14"
+  },
+  "dependencies": {
+    "phaser": "3.24.1"
+  }
+}
