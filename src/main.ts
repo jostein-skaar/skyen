@@ -5,10 +5,6 @@ import { Velkomstsene } from './sener/velkomstsene';
 import { Volumsene } from './sener/volumsene';
 import './style.css';
 
-// var global = window;
-
-console.log(`Klar ferdig`);
-
 let erDebug = true;
 erDebug = false;
 

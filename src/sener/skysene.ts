@@ -10,18 +10,18 @@ export class Skysene extends Phaser.Scene {
   skybilRoyk: Phaser.GameObjects.Sprite;
   skybilRoykTeller = 0;
   skybilKonteiner: Phaser.GameObjects.Container;
-  logogruppe: Phaser.Physics.Arcade.Group;
+  ballonggruppe: Phaser.Physics.Arcade.Group;
   resultattekst: Phaser.GameObjects.Text;
   startfart = 200;
-  fartsokningPerApp = 5;
+  fartsokningPerBallong = 5;
   fart = this.startfart;
 
   innstillinger = {
     tyngekraftSkybil: 900,
     flykraft: 400,
-    avstandMellomLogoer: 200,
-    maksHoydeAvstandMellomToLogoer: 100,
-    antallLogoer: 8,
+    avstandMellomballonger: 200,
+    maksHoydeAvstandMellomToballonger: 100,
+    antallballonger: 8,
     nokkelLagring: 'skyen-toppresultat',
     startX: 150,
   };
@@ -35,7 +35,7 @@ export class Skysene extends Phaser.Scene {
   init(data: any) {
     this.bredde = this.game.scale.gameSize.width;
     this.hoyde = this.game.scale.gameSize.height;
-    this.innstillinger.antallLogoer = Math.ceil(this.bredde / this.innstillinger.avstandMellomLogoer);
+    this.innstillinger.antallballonger = Math.ceil(this.bredde / this.innstillinger.avstandMellomballonger);
     // Hvis vi stående og veldig avlang, kan det bli nødvendig å skyve skybilen vår litt mot venstre.
     if (this.hoyde / this.bredde > 2 || this.bredde < 400) {
       this.innstillinger.startX = 70;
@@ -51,7 +51,7 @@ export class Skysene extends Phaser.Scene {
 
   preload() {
     this.load.spritesheet('skybil', 'assets/skybil-sprite.png', { frameWidth: 332, frameHeight: 150 });
-    this.load.image('logo', 'assets/mdir-logo.png');
+    this.load.image('ballong', 'assets/ballong.png');
     this.load.audioSprite('lydeffekter', 'assets/lydeffekter.json');
 
     const tempToppresultat = localStorage.getItem(this.innstillinger.nokkelLagring);
@@ -99,34 +99,35 @@ export class Skysene extends Phaser.Scene {
 
     this.input.on('pointerdown', () => this.fly());
 
-    this.logogruppe = this.physics.add.group();
+    this.ballonggruppe = this.physics.add.group();
     let forrigeX = this.skybilKonteiner.x + 100;
     let forrigeY = this.hoyde / 2;
 
-    for (let i = 0; i < this.innstillinger.antallLogoer; i++) {
+    for (let i = 0; i < this.innstillinger.antallballonger; i++) {
       const [x, y] = this.lagGanskeTilfeldigXY(forrigeX, forrigeY);
-      this.logogruppe.create(x, y, 'logo');
+      this.ballonggruppe.create(x, y, 'ballong');
       forrigeX = x;
       forrigeY = y;
     }
 
-    this.logogruppe.setVelocityX(-this.fart);
+    this.ballonggruppe.setVelocityX(-this.fart);
+    this.ballonggruppe.setVelocityY(-25);
 
     this.physics.add.overlap(
       this.skybilKonteiner,
-      this.logogruppe,
+      this.ballonggruppe,
       // @ts-ignore
-      (skybil: Phaser.GameObjects.Container, logo: Phaser.Physics.Arcade.Sprite) => {
-        logo.disableBody(true, true);
+      (skybil: Phaser.GameObjects.Container, ballong: Phaser.Physics.Arcade.Sprite) => {
+        ballong.disableBody(true, true);
 
         this.lydeffekter.poeng();
 
-        const [storsteX, tilhorendeY] = this.finnStorsteXOgTilhorendeYBlantLogoer();
+        const [storsteX, tilhorendeY] = this.finnStorsteXOgTilhorendeYBlantballonger();
         const [x, y] = this.lagGanskeTilfeldigXY(storsteX, tilhorendeY);
-        logo.enableBody(true, x, y, true, true);
-        this.fart += this.fartsokningPerApp;
+        ballong.enableBody(true, x, y, true, true);
+        this.fart += this.fartsokningPerBallong;
         // console.log('fart:', this.fart);
-        this.logogruppe.setVelocityX(-this.fart);
+        this.ballonggruppe.setVelocityX(-this.fart);
 
         this.resultat += 1;
         this.resultattekst.setText(this.hentResultattekst());
@@ -142,8 +143,8 @@ export class Skysene extends Phaser.Scene {
     // }
 
     // @ts-ignore
-    this.logogruppe.children.iterate((logo: Phaser.Physics.Arcade.Sprite) => {
-      if (logo.x < 0) {
+    this.ballonggruppe.children.iterate((ballong: Phaser.Physics.Arcade.Sprite) => {
+      if (ballong.x < 0) {
         this.tap();
       }
     });
@@ -155,26 +156,26 @@ export class Skysene extends Phaser.Scene {
     this.skybilRoykTeller++;
   }
 
-  finnStorsteXOgTilhorendeYBlantLogoer(): number[] {
+  finnStorsteXOgTilhorendeYBlantballonger(): number[] {
     let storstX = 0;
     let tilhorendeY = 0;
     // @ts-ignore
-    this.logogruppe.children.iterate((logo: Phaser.Physics.Arcade.Sprite) => {
-      if (logo.x > storstX) {
-        storstX = logo.x;
-        tilhorendeY = logo.y;
+    this.ballonggruppe.children.iterate((ballong: Phaser.Physics.Arcade.Sprite) => {
+      if (ballong.x > storstX) {
+        storstX = ballong.x;
+        tilhorendeY = ballong.y;
       }
     });
     return [storstX, tilhorendeY];
   }
 
   private lagGanskeTilfeldigXY(forrigeX: number, forrigeY: number): number[] {
-    const x = forrigeX + this.innstillinger.avstandMellomLogoer;
+    const x = forrigeX + this.innstillinger.avstandMellomballonger;
     let y = 0;
     do {
       y = Phaser.Math.Between(50, this.hoyde - 50);
       // console.log('Forksjell:', Math.abs(y - forrigeY));
-    } while (Math.abs(y - forrigeY) > this.innstillinger.maksHoydeAvstandMellomToLogoer);
+    } while (Math.abs(y - forrigeY) > this.innstillinger.maksHoydeAvstandMellomToballonger);
 
     return [x, y];
   }
@@ -211,7 +212,7 @@ export class Skysene extends Phaser.Scene {
   }
 
   private hentResultattekst(): string {
-    let tekst = `Apper i skyen: ${this.resultat}`;
+    let tekst = `Ballonger: ${this.resultat}`;
     if (this.toppresultat > 0) {
       tekst += `\nRekord: ${this.toppresultat}`;
     }

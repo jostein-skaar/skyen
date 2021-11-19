@@ -2,27 +2,28 @@
 <!-- Created with Vectornator for iOS (http://vectornator.io/) -->
 
 <svg
-   xmlns:vectornator="http://vectornator.io"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round"
    xml:space="preserve"
    version="1.1"
    viewBox="0 0 331.73501 149.99991"
    id="svg62"
    sodipodi:docname="skybil.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    width="331.73502"
    height="149.99991"
-   inkscape:export-filename="D:\Code\spill\arbeidsrom-angular\prosjekter\odi-i-skyen\filer\skybil-med-tekst.png"
+   inkscape:export-filename="D:\Code\spill\arbeidsrom-angular\prosjekter\skyen\filer\skybil-med-tekst.png"
    inkscape:export-xdpi="115.75504"
-   inkscape:export-ydpi="115.75504"><sodipodi:namedview
+   inkscape:export-ydpi="115.75504"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:vectornator="http://vectornator.io">
+   <sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -36,10 +37,10 @@
    id="namedview64"
    showgrid="false"
    inkscape:zoom="2"
-   inkscape:cx="371.97092"
-   inkscape:cy="112.25812"
+   inkscape:cx="362.25"
+   inkscape:cy="52.25"
    inkscape:window-x="1072"
-   inkscape:window-y="1066"
+   inkscape:window-y="1072"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg62"
    inkscape:pagecheckerboard="true"
@@ -49,288 +50,330 @@
    fit-margin-bottom="0"
    viewbox-height="350"
    viewbox-width="150" />
-<metadata
+   <metadata
    id="metadata2">
-<vectornator:setting
+      <vectornator:setting
    key="DisplayWhiteBackground"
    value="0" />
-<vectornator:setting
+      <vectornator:setting
    key="RulersVisible"
    value="1" />
-<vectornator:setting
+      <vectornator:setting
    key="GridSpacing"
    value="36" />
-<vectornator:setting
+      <vectornator:setting
    key="Units"
    value="Pixels" />
-<vectornator:setting
+      <vectornator:setting
    key="DynamicGuides"
    value="0" />
-<vectornator:setting
+      <vectornator:setting
    key="SnapToPoints"
    value="0" />
-<vectornator:setting
+      <vectornator:setting
    key="SnapToGrid"
    value="0" />
-<vectornator:setting
+      <vectornator:setting
    key="SnapToGuides"
    value="1" />
-<vectornator:setting
+      <vectornator:setting
    key="ShowGrid"
    value="1" />
-<vectornator:setting
+      <vectornator:setting
    key="SnapToEdges"
    value="0" />
-<rdf:RDF><cc:Work
-     rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
-<defs
-   id="defs4"><linearGradient
-     inkscape:collect="always"
-     id="linearGradient862"><stop
-       style="stop-color:#000000;stop-opacity:1;"
-       offset="0"
-       id="stop858" /><stop
-       style="stop-color:#000000;stop-opacity:0;"
-       offset="1"
-       id="stop860" /></linearGradient><linearGradient
-     inkscape:collect="always"
-     xlink:href="#linearGradient862"
-     id="linearGradient864"
-     x1="28.75"
-     y1="-70.740134"
-     x2="252.5"
-     y2="-70.740134"
-     gradientUnits="userSpaceOnUse" /></defs>
-<g
+      <rdf:RDF>
+         <cc:Work
+   rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+   rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            
+         </cc:Work>
+      </rdf:RDF>
+   </metadata>
+   <defs
+   id="defs4">
+      <linearGradient
+   inkscape:collect="always"
+   id="linearGradient862">
+         <stop
+   style="stop-color:#000000;stop-opacity:1;"
+   offset="0"
+   id="stop858" />
+         <stop
+   style="stop-color:#000000;stop-opacity:0;"
+   offset="1"
+   id="stop860" />
+      </linearGradient>
+      <linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient862"
+   id="linearGradient864"
+   x1="28.75"
+   y1="-70.740134"
+   x2="252.5"
+   y2="-70.740134"
+   gradientUnits="userSpaceOnUse" />
+   </defs>
+   <g
    id="Layer 2"
    vectornator:layerName="Layer 2"
    style="display:inline"
    inkscape:label="bakgrunn"
    transform="matrix(0.24548933,0,0,0.41476196,41.630582,-94.882276)"
    inkscape:export-xdpi="295.20685"
-   inkscape:export-ydpi="295.20685">
+   inkscape:export-ydpi="295.20685"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\skyen-ikon-1024.png">
 
-<path
+      <path
    d="M -167.213,-60.2891 H 1184.26 V 737.582 H -167.213 Z"
    id="path8"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#0087ce;fill-opacity:0.92156863;stroke:#4c4c4c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round" />
-</g>
-<g
+   style="opacity:1;fill:#0087ce;fill-opacity:0.921569;stroke:#4c4c4c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round" />
+   </g>
+   <g
    id="Layer 1"
    vectornator:layerName="Layer 1"
    style="display:inline"
    inkscape:label="skyen"
-   transform="matrix(0.4886446,0,0,0.42417263,-51.190337,-81.760009)">
-<path
+   transform="matrix(0.4886446,0,0,0.42417263,-51.190337,-81.760009)"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    d="M 152.487,266.602"
    id="path11"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 352.483,397.414 c -0.269,-2.152 1.049,-7.885 1.5,-9.992 0.774,-3.612 3.058,-6.675 4.362,-10.066 2.257,-5.868 3.631,-12.239 6.711,-17.784 1.495,-2.691 4.343,-4.76 6.375,-7.046 7.538,-8.48 17.942,-15.811 28.185,-20.467 2.656,-1.208 5.724,-1.284 8.388,-2.349 1.559,-0.624 2.941,-1.794 4.698,-2.013 8.262,-1.033 16.464,1.009 24.494,2.013 4.052,0.506 8.43,0.21 12.414,1.006 1.219,0.244 13.671,-3.833 14.455,-5.14 4.295,-7.159 1.926,-8.968 5.006,-16.669 2.8,-6.999 10.292,-11.97 15.435,-17.112 4.244,-4.244 10.661,-7.086 15.77,-10.067 12.512,-7.298 26.105,-9.656 40.264,-11.072 7.1,-0.71 14.94,-3.323 22.145,-2.013 4.45,0.809 9.449,2.41 13.757,4.026 4.618,1.732 9.81,1.041 14.428,3.02 3.631,1.556 5.556,5.357 8.388,7.717 5.76,4.8 13.73,6.728 19.461,11.744 5.641,4.935 10.96,10.79 14.764,17.448 3.029,5.301 6.019,11.98 11.073,15.77 2.551,1.913 11.794,-2.816 14.763,-3.356 11.399,-2.072 23.467,-2.023 34.224,3.356 5.046,2.523 9.349,7.204 13.086,11.408 1.694,1.905 2.586,4.599 4.362,6.375 5.591,5.591 9.14324,8.06925 12.10924,15.48325 1.155,2.888 3.1621,10.05105 3.5971,13.09705 2.36414,6.98393 7.12091,7.28042 11.47166,10.0057 2.026,1.35 3.789,4.063 5.705,5.704 3.326,2.851 7.376,4.581 10.737,7.382 4.469,3.724 7.489,9.239 10.401,14.093 2.462,4.103 6.088,7.526 8.389,11.743 2.499,4.582 3.881,9.105 5.033,14.093 0.677,2.937 2.297,5.5 3.019,8.388 1.286,5.144 1.082,11.557 0.336,16.777 -2.271,15.895 -3.562,38.724 -13.794,50.418 -2.105,2.406 -16.469,12.977 -18.433,15.432 -3.138,3.922 -25.391,8.199 -30.008,10.717 -15.993,8.724 -21.48,2.188 -39.096,2.954 -9.65,0.42 -19.149,2.685 -28.856,2.685 -9.705,0 -19.223,-2.513 -28.856,-3.02 -12.463,-0.656 -25.156,-0.1 -37.58,-1.342 -5.158,-0.516 -10.003,-2.591 -15.099,-3.356 -4.966,-0.745 -10.079,-1.163 -15.099,-1.342 -17.002,-0.607 -33.755,2.416 -50.666,3.02 -13.265,0.474 -26.082,-1.776 -39.257,-2.349 -6.928,-0.301 -13.876,-0.37 -20.803,-0.671 -9.059,-0.394 -18.11,0.748 -27.178,0.336 -16.841,-0.766 -33.397,-4.873 -50.33,-4.027 -7.852,0.393 -15.61,2.414 -23.488,3.02 -6.006,0.462 -10.515,-1.087 -16.105,-2.684 -6.119,-1.748 -11.459,-2.83 -16.777,-6.375 -15.424,-10.283 -24.457,-30.091 -26.843,-47.982 -0.639,-4.793 -1.783,-9.944 -0.671,-14.763 2.355,-10.205 3.318,-22.703 10.174,-30.415 3.096,-3.483 10.626,-14.836 14.146,-18.004 7.401,-6.661 25.998,-8.982 35.151,-12.86 8.428,-3.571 10.38,-3.157 10.162,-4.895 z"
    id="path13"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:2.51627803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:2.51628;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    sodipodi:nodetypes="ccccccccccccccccccsccscccsccccccccscccccscccccccccscccccccc" />
-</g><g
+   </g>
+   <g
    inkscape:label="arm venstre 2"
    vectornator:layerName="Layer 6"
    id="g3756"
    transform="matrix(0.56636413,0.08556671,-0.08556671,0.56636413,-43.465567,-82.584984)"
    style="display:none">
-<path
+      <path
    id="path3752"
    d="m 470.353,322.445 21.397,-10.148 6.435,-3.052 17.932,-8.505 c 0.759,0 3.78,11.237 3.78,11.237 l -7.866,3.68 -35.347,16.541 z"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    id="path3754"
    d="m 516.474,299.742 c 0,0 3.857,-8.651 7.533,-10.679 3.675,-2.028 1.469,7.671 1.469,7.671 0,0 1.841,-1.795 4.341,-0.955 2.14,0.718 0.221,7.754 1.183,9.253 1.211,1.888 0.245,5.361 -2.275,8.288 -1.819,2.112 1.907,0.116 -7.565,0.899 -5.042,-0.821 -4.686,-14.477 -4.686,-14.477 z"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-</g>
-<g
+   </g>
+   <g
    id="Layer 6"
    vectornator:layerName="Layer 6"
    inkscape:label="arm venstre"
    style="display:inline"
-   transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)">
-<path
+   transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    d="m 470.353,322.445 21.397,-10.148 6.435,-3.052 17.932,-8.505 c 0.759,0 3.78,11.237 3.78,11.237 l -7.866,3.68 -35.347,16.541 z"
    id="path16"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 516.474,299.742 c 0,0 3.857,-8.651 7.533,-10.679 3.675,-2.028 1.469,7.671 1.469,7.671 0,0 1.841,-1.795 4.341,-0.955 2.14,0.718 0.221,7.754 1.183,9.253 1.211,1.888 0.245,5.361 -2.275,8.288 -1.819,2.112 1.907,0.116 -7.565,0.899 -5.042,-0.821 -4.686,-14.477 -4.686,-14.477 z"
    id="path18"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-</g>
-<g
+   </g>
+   <g
    id="Layer 4"
    vectornator:layerName="Layer 4"
    inkscape:label="kropp"
    transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)"
-   style="display:inline">
-<path
+   style="display:inline"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    d="m 461.813,298.444 23.222,41.124 -6.79,73.126 c 0,0.545 -0.415,0.988 -0.927,0.988 h -79.599 c -0.512,0 -0.927,-0.443 -0.927,-0.988 l 7.266,-51.208 11.6,-70.143 c 0,-0.546 46.155,6.555 46.155,7.101 z"
    id="path21"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-</g>
-<g
+   </g>
+   <g
    style="display:inline"
    transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)"
    inkscape:label="ratt"
    vectornator:layerName="Layer 7"
-   id="g3770">
-<path
+   id="g3770"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    style="opacity:1;fill:#41d600;fill-opacity:0;stroke:#000000;stroke-width:9;stroke-linecap:butt;stroke-linejoin:round"
    inkscape:connector-curvature="0"
    id="path3758"
    d="m 524.344,307.095 c 0,-19.627 5.905,-35.537 13.191,-35.537 7.285,0 13.191,15.91 13.191,35.537 0,19.627 -5.906,35.537 -13.191,35.537 -7.286,0 -13.191,-15.91 -13.191,-35.537 z" />
-<path
+      <path
    style="opacity:1;fill:#000000;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
    inkscape:connector-curvature="0"
    id="path3760"
    d="M 599.275,346.665 538.232,306.331" />
-<path
+      <path
    style="opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round"
    inkscape:connector-curvature="0"
    id="path3762"
    d="m 525.971,299.567 21.718,13.156" />
-<path
+      <path
    style="opacity:1;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
    inkscape:connector-curvature="0"
    id="path3764"
    d="m 539.963,275.761 -3.968,64.527" />
-<path
+      <path
    style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
    inkscape:connector-curvature="0"
    id="path3766"
    d="m 528.477,303.117 0.627,-0.417" />
-<path
+      <path
    style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
    inkscape:connector-curvature="0"
    id="path3768"
    d="m 531.266,303.107 0.016,0.068" />
-</g>
-<g
+   </g>
+   <g
    id="Layer 5"
    vectornator:layerName="Layer 5"
    inkscape:label="arm høyre 2"
    transform="matrix(0.56811335,-0.07305629,0.07305629,0.56811335,-95.907827,-10.273859)"
    style="display:none">
-<path
+      <path
    d="m 444.452,327.221 55.096,-0.856 45.764,-21.705 c 0.759,0 3.78,11.237 3.78,11.237 l -43.213,20.221 -60.742,3.594 c -1.337,0 -2.021,-12.491 -0.685,-12.491 z"
    id="path37"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 543.762,302.996 c 0,0 -0.792,-7.932 2.061,-9.96 2.853,-2.028 4.927,6.952 4.927,6.952 0,0 0.006,0.453 1.947,1.292 1.66,0.719 5.226,1.696 5.972,3.195 0.94,1.888 -0.414,6.691 -2.37,9.617 -1.412,2.112 -1.547,2.598 -8.899,3.381 -3.913,-0.82 -3.638,-14.477 -3.638,-14.477 z"
    id="path39"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 444.452,327.221 55.096,-0.856 45.764,-21.705 c 0.759,0 3.78,11.237 3.78,11.237 l -43.213,20.221 -60.742,3.594 c -1.337,0 -2.021,-12.491 -0.685,-12.491 z"
    id="path41"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 543.762,302.996 c 0,0 -0.792,-7.932 2.061,-9.96 2.853,-2.028 4.927,6.952 4.927,6.952 0,0 0.006,0.453 1.947,1.292 1.66,0.719 5.226,1.696 5.972,3.195 0.94,1.888 -0.414,6.691 -2.37,9.617 -1.412,2.112 -1.547,2.598 -8.899,3.381 -3.913,-0.82 -3.638,-14.477 -3.638,-14.477 z"
    id="path43"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-</g><g
+   </g>
+   <g
    inkscape:label="arm høyre"
    vectornator:layerName="Layer 5"
    id="g3750"
    style="display:inline"
-   transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)">
-<path
+   transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    id="path3742"
    d="m 444.452,327.221 55.096,-0.856 45.764,-21.705 c 0.759,0 3.78,11.237 3.78,11.237 l -43.213,20.221 -60.742,3.594 c -1.337,0 -2.021,-12.491 -0.685,-12.491 z"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    id="path3744"
    d="m 543.762,302.996 c 0,0 -0.792,-7.932 2.061,-9.96 2.853,-2.028 4.927,6.952 4.927,6.952 0,0 0.006,0.453 1.947,1.292 1.66,0.719 5.226,1.696 5.972,3.195 0.94,1.888 -0.414,6.691 -2.37,9.617 -1.412,2.112 -1.547,2.598 -8.899,3.381 -3.913,-0.82 -3.638,-14.477 -3.638,-14.477 z"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    id="path3746"
    d="m 444.452,327.221 55.096,-0.856 45.764,-21.705 c 0.759,0 3.78,11.237 3.78,11.237 l -43.213,20.221 -60.742,3.594 c -1.337,0 -2.021,-12.491 -0.685,-12.491 z"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#41d600;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    id="path3748"
    d="m 543.762,302.996 c 0,0 -0.792,-7.932 2.061,-9.96 2.853,-2.028 4.927,6.952 4.927,6.952 0,0 0.006,0.453 1.947,1.292 1.66,0.719 5.226,1.696 5.972,3.195 0.94,1.888 -0.414,6.691 -2.37,9.617 -1.412,2.112 -1.547,2.598 -8.899,3.381 -3.913,-0.82 -3.638,-14.477 -3.638,-14.477 z"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-</g>
-<g
+   </g>
+   <g
    id="Layer 3"
    vectornator:layerName="Layer 3"
    inkscape:label="hode"
    transform="matrix(0.57279141,0,0,0.57279141,-70.079207,-124.41087)"
-   style="display:inline">
-<path
+   style="display:inline"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    d="m 398.029,262.751 c 0,-24.605 18.202,-44.55 40.656,-44.55 22.455,0 40.657,19.945 40.657,44.55 0,24.604 -18.202,44.55 -40.657,44.55 -22.454,0 -40.656,-19.946 -40.656,-44.55 z"
    id="path46"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#fff7b8;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 447.713,273.406 c -0.274,-2.083 3.368,1.755 3.66,1.881 1.974,0.858 4.164,1.225 6.379,0.605 4.906,-1.371 11.614,-7.498 10.91,-12.853"
    id="path48"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+      <path
    d="m 454.999,238.042 c -3.954,2.132 -3.744,2.18 -4.706,3.504 -1.942,2.672 -0.148,6.536 3.665,7.25 3.48,0.652 7.355,-3.427 7.274,-6.683 -0.036,-1.453 -2.279,-6.203 -6.233,-4.071 z"
    id="path50"
    inkscape:connector-curvature="0"
    style="opacity:1;fill:#402000" />
-</g>
-<g
+   </g>
+   <g
    id="Layer 8"
    vectornator:layerName="Layer 8"
    inkscape:label="røyk"
    transform="matrix(0.57279141,0,0,0.55691004,-66.040827,-154.76446)"
-   style="display:inline">
-<path
+   style="display:inline"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08">
+      <path
    d="m 273.88471,424.02824 c -18.085,-5.06197 -43.817,-4.39643 -62.906,-3.64485 -7.269,0.28595 -15.689,2.56936 -22.946,1.39602 -24.042,-3.88525 -25.194,-25.2398 -55.287,-12.01847 l -0.672,-0.92196 c 23.784,-22.09263 35.673,3.56471 55.635,7.47443 7.227,1.41542 16.018,-0.87727 23.27,-1.20286 19.876,-0.8916 46.501,-1.035 64.961,5.45166"
    id="path53"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.5921669;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.59217;stroke-linecap:butt;stroke-linejoin:round" />
+      <path
    d="m 263.69148,455.85042 c -16.405,-0.14087 -32.892,-1.81188 -49.215,-0.42345 -11.948,1.01644 -32.891,18.94293 -46.384,13.6026 -10.502,-4.15602 -13.555,-33.4987 -29.97,-25.01542 l -0.85,-5.02232 c 21.661,-7.96873 20.046,17.68777 30.112,24.36507 7.171,4.75661 40.971,-12.03703 47.591,-12.38709 16.963,-0.8975 33.948,1.45001 50.922,2.17544"
    id="path55"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.5921669;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.59217;stroke-linecap:butt;stroke-linejoin:round" />
+      <path
    d="m 253.39019,494.99899 c -25.059,-1.10248 -48.813,-1.01053 -73.707,-1.25009 -27.665,-0.26656 -31.908,-17.1825 -61.4647,-3.13537 l -0.626,-0.76254 c 13.8787,-18.32209 34.2627,-6.79793 52.0167,-2.01601 11.827,3.18597 24.282,0.44538 36.339,0.52298 15.539,0.10038 32.256,2.71107 47.613,3.60605"
    id="path57"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.5921669;stroke-linecap:butt;stroke-linejoin:round" />
-<path
+   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.59217;stroke-linecap:butt;stroke-linejoin:round" />
+      <path
    d="m 263.73947,519.09519 c -11.212,5.03328 -29.191,15.86745 -43.794,15.28711 -10.459,-0.4167 -14.071,-9.62287 -23.463,-10.46555 -11.439,-1.02572 -29.989,5.30911 -40.799,8.45629 l -0.539,-1.16912 c 10.168,-5.66677 31.571,-12.82319 43.932,-11.03746 8.564,1.23744 11.157,9.16484 19.674,10.32721 15.264,2.0835 31.656,-10.0421 42.477,-15.90119"
    id="path59"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.5921669;stroke-linecap:butt;stroke-linejoin:round" />
-</g>
-<flowRoot
+   style="opacity:1;fill:#a69696;stroke:#4c4c4c;stroke-width:4.59217;stroke-linecap:butt;stroke-linejoin:round" />
+   </g>
+   <flowRoot
    xml:space="preserve"
    id="flowRoot850"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.68724532;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-   transform="matrix(1.477093,0,0,1.4334039,-41.341198,56.490517)"><flowRegion
-     id="flowRegion852"
-     style="line-height:1.25;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.68724532;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
-       id="rect854"
-       width="285"
-       height="101"
-       x="27"
-       y="-111.00009"
-       style="line-height:1.25;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.68724532;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
-     id="flowPara856"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:Chiller;-inkscape-font-specification:Chiller;letter-spacing:0px;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.68724532;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ODI i skyen</flowPara></flowRoot></svg>
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   transform="matrix(2.0733156,0,0,1.4334039,-57.439207,56.490517)"
+   inkscape:export-filename="D:\Kode\spill\skyen\filer\Layer 1.png"
+   inkscape:export-xdpi="115.08"
+   inkscape:export-ydpi="115.08"><flowRegion
+   id="flowRegion852"
+   style="line-height:1.25;text-align:start;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
+   id="rect854"
+   width="285"
+   height="101"
+   x="27"
+   y="-111.00009"
+   style="line-height:1.25;text-align:start;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+   id="flowPara856"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:Chiller;-inkscape-font-specification:Chiller;text-align:start;letter-spacing:0px;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"> Skyen</flowPara>
+   </flowRoot>
+</svg>
