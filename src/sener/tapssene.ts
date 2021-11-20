@@ -19,7 +19,7 @@ export class Tapssene extends Phaser.Scene {
       .text(this.bredde / 2, this.hoyde / 2, tekst, {
         fontFamily: 'arial',
         fontSize: '20px',
-        fill: '#000',
+        color: '#000',
         align: 'center',
         backgroundColor: '#87ceeb',
         padding: { x: 5, y: 5 },

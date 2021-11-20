@@ -134,7 +134,7 @@ export class Skysene extends Phaser.Scene {
       }
     );
 
-    this.resultattekst = this.add.text(15, 20, this.hentResultattekst(), { fontFamily: 'arial', fontSize: '20px', fill: '#000' });
+    this.resultattekst = this.add.text(15, 20, this.hentResultattekst(), { fontFamily: 'arial', fontSize: '20px', color: '#000' });
   }
 
   update() {

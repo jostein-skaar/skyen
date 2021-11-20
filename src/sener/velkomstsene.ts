@@ -50,7 +50,7 @@ export class Velkomstsene extends Phaser.Scene {
     }
 
     const startTekst = this.add
-      .text(0, 200, 'Trykk på skyen for å starte spillet', { fontFamily: 'arial', fontSize: '20px', fill: '#000', align: 'center' })
+      .text(0, 200, 'Trykk på skyen for å starte spillet', { fontFamily: 'arial', fontSize: '20px', color: '#000', align: 'center' })
       .setOrigin(0.5, 0.5)
       .setInteractive()
       .once('pointerdown', () => this.startNyttSpill());
