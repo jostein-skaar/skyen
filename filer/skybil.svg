@@ -39,7 +39,7 @@
    inkscape:zoom="2"
    inkscape:cx="362.25"
    inkscape:cy="52.25"
-   inkscape:window-x="1072"
+   inkscape:window-x="3632"
    inkscape:window-y="1072"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg62"
@@ -119,18 +119,18 @@
    <g
    id="Layer 2"
    vectornator:layerName="Layer 2"
-   style="display:inline"
+   style="display:inline;stroke:none;stroke-width:0.99804;fill:#87ceeb;fill-opacity:1"
    inkscape:label="bakgrunn"
-   transform="matrix(0.24548933,0,0,0.41476196,41.630582,-94.882276)"
-   inkscape:export-xdpi="295.20685"
-   inkscape:export-ydpi="295.20685"
+   transform="matrix(0.24565789,0,0,0.41610731,41.077192,-94.913265)"
+   inkscape:export-xdpi="296.10001"
+   inkscape:export-ydpi="296.10001"
    inkscape:export-filename="D:\Kode\spill\skyen\filer\skyen-ikon-1024.png">
 
       <path
    d="M -167.213,-60.2891 H 1184.26 V 737.582 H -167.213 Z"
    id="path8"
    inkscape:connector-curvature="0"
-   style="opacity:1;fill:#0087ce;fill-opacity:0.921569;stroke:#4c4c4c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round" />
+   style="opacity:1;fill:#87ceeb;fill-opacity:1;stroke:none;stroke-width:4.9902;stroke-linecap:butt;stroke-linejoin:round" />
    </g>
    <g
    id="Layer 1"
@@ -367,12 +367,12 @@
    inkscape:export-ydpi="115.08"><flowRegion
    id="flowRegion852"
    style="line-height:1.25;text-align:start;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
-   id="rect854"
-   width="285"
-   height="101"
-   x="27"
-   y="-111.00009"
-   style="line-height:1.25;text-align:start;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+     id="rect854"
+     width="285"
+     height="101"
+     x="27"
+     y="-111.00009"
+     style="line-height:1.25;text-align:start;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
    id="flowPara856"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:Chiller;-inkscape-font-specification:Chiller;text-align:start;letter-spacing:0px;text-anchor:start;fill:#41d600;fill-opacity:1;stroke:#000000;stroke-width:0.580073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"> Skyen</flowPara>
    </flowRoot>
